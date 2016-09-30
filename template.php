@@ -118,15 +118,9 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   $form['simple']['keys']['#title'] = '';
   $form['simple']['keys']['#attributes']['placeholder'] = t('Search');
   
-  $form['simple']['collection_select'] = array(
-    '#access' => $collection !== FALSE,
-    '#type' => 'select',
-    '#options' => $options,
-    '#default_value' => $default_search,
-    '#attributes' => array(
+  $form['simple']['collection_select']['#attributes'] => array(
       'class' => array('selectpicker'),
       'data-width'=> 'fit',
-    ),
-  );
+    );
 
 }
