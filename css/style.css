@@ -4851,7 +4851,7 @@ select[multiple].input-group-sm > .select2-search input[type="text"] {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #29316c;
-  background-color: transparent;
+  background-color: #0da5f0;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -4892,7 +4892,7 @@ select[multiple].input-group-sm > .select2-search input[type="text"] {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #29316c;
-    background-color: transparent;
+    background-color: #0da5f0;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -10746,11 +10746,11 @@ body.front #page-header {
 }
 .navbar-nav > li > a.active:hover,
 .navbar-nav > li > a.active:focus {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: #0a83bf !important;
 }
 .menu .navbar-nav > li > a.active:hover,
 .menu .navbar-nav > li > a.active:focus {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: #0a83bf !important;
 }
 form#islandora-solr-simple-search-form {
   margin: 0;
