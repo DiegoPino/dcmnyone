@@ -13,10 +13,9 @@ function dcmnyone_form_islandora_solr_simple_search_form_alter(&$form, &$form_st
   // Remove container-inline from the container classes.
   $form['simple']['islandora_simple_search_query']['#attributes']['class'] = array();
   $form['simple']['islandora_simple_search_query']['#size'] = 30;
-  $form['simple']['islandora_simple_search_query']['#attributes']=array('placeholder'=>t('Search our repository'));
- 
   // Hide the default button from display.
   $form['simple']['submit']['#attributes']['class'][] = 'element-invisible';
+  $form['simple']['islandora_simple_search_query']['#attributes']=array('placeholder'=>t('Search our repository'));
   unset($form['simple']['islandora_simple_search_query']['#title']);
   // Implement a theme wrapper to add a submit button containing a search
   // icon directly after the input element.
@@ -107,7 +106,6 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   // Remove container-inline from the container classes.
   $form['simple']['islandora_simple_search_query']['#attributes']['class'] = array();
   $form['simple']['islandora_simple_search_query']['#size'] = 30;
-  $form['simple']['islandora_simple_search_query']['#attributes']=array('placeholder'=>t('Search our repository'));
   // Hide the default button from display.
   $form['simple']['submit']['#attributes']['class'][] = 'element-invisible';
   $form['simple']['islandora_simple_search_query']['#attributes']=array('placeholder'=>t('Search our repository'));
@@ -123,10 +121,20 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
     '#type' => 'select',
     '#options' => $options,
     '#default_value' => $default_search,
-    '#attributes' => array(
-      'class' => 'selectpicker',
-      'data-width'=> 'fit',
-    ),
+    '#attributes' => 
   );
-
+  $form['simple']["islandora_simple_search_query"] = array(
+    '#size' => '15',
+    '#type' => 'textfield',
+    '#title' => t('Search box'),
+    '#title_display' => 'invisible',
+    '#default_value' => $default_search_value,
+  );
+  $form['simple']['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('search'),
+  );
+  return $form;
+ 
+ 
 }
