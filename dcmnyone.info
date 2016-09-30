@@ -27,6 +27,7 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/style.css
 scripts[] = 'js/dcmnyone.js'
+scripts[] = 'js/bootstrap-select.js'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
@@ -47,3 +48,4 @@ scripts[] = 'bootstrap/js/transition.js'
 
 ; Disable BootstrapCDN so the compiled LESS source files can be used.
 settings[bootstrap_cdn] = ''
+j
