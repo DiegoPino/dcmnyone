@@ -124,7 +124,7 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
     '#options' => $options,
     '#default_value' => $default_search,
     '#attributes' => array(
-      'class' => 'selectpicker',
+      'class' => array('selectpicker'),
       'data-width'=> 'fit',
     ),
   );
