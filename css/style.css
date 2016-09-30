@@ -9219,7 +9219,7 @@ select[multiple].input-group-sm > .select2-search input[type="text"] {
   color: white;
   text-align: center;
   background-color: #8c8c8c;
-  border: 2px solid #8c8c8c;
+  border: 1px solid #8c8c8c;
   border-radius: 6px;
   transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
 }
@@ -9336,8 +9336,8 @@ fieldset[disabled] .input-group.focus .input-group-btn .btn-default.active {
   background-color: white;
 }
 .input-group-btn .btn {
-  background-color: white;
-  border: 2px solid #8c8c8c;
+  background-color: #0076b0;
+  border: 1px solid #8c8c8c;
   color: #8c8c8c;
   line-height: 18px;
   height: 42px;
@@ -9405,7 +9405,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin-left: -3px;
 }
 .input-group-btn > .btn-default + .btn-default {
-  border-left: 2px solid #8c8c8c;
+  border-left: 1px solid #8c8c8c;
 }
 .input-group-btn > .btn:first-child + .btn .caret {
   margin-left: 0;
