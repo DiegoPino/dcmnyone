@@ -10812,5 +10812,20 @@ footer {
   /* Negative indent footer by it's height */
   margin-bottom: -200px;
 }
+.navbar .block {
+  float: none;
+  margin: 5px 0 5px 5px;
+}
+@media screen and (min-width: 992px) {
+  .navbar .block {
+    float: right;
+    clear: right;
+    padding-top: 40px;
+    padding-right: 100px;
+  }
+}
+.navbar .block .input-group-btn {
+  width: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
