@@ -127,10 +127,9 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
 
   <input type="hidden" name="form_id" value="islandora_collection_search_form">
   <div class="input-group"> 
-  <div class="btn-group" role="group">
       <!-- Select-->
- 
-  <div class="form-control form-type-select form-group">
+
+  <div class="form-control form-type-select">
       <span class="input-group-addon" id="basic-addon1">search inside</span>
       <select class="selectpicker form-control form-select" data-width="fit" aria-describedby="basic-addon2" id="edit-collection-select" data-header="Select a Collection" name="collection_select"><option value="all">All Collections</option>
       <option value="albadigitallibrary:collection">Abraham Lincoln Brigade Archives, ALBA Digital Library</option>
