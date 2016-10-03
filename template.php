@@ -136,17 +136,19 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
       <option value="albadigitallibrary:collection">Abraham Lincoln Brigade Archives, ALBA Digital Library</option>
     </select>
   </div>
-  
+   </div>
    <!--  Input field and button -->
-    <div class="form-control form-type-textfield form-group">
+    <div class="input-group"> 
+    <div class="form-control">
       <span class="input-group-addon" id="basic-addon2">for</span>
-      <input placeholder="Search our repository" class="form-control form-text" type="text" aria-describedby="basic-addon2" id="edit-islandora-simple2-search-query" name="islandora_simple_search_query" value="" size="30" maxlength="128"></div>
+      <input placeholder="Search our repository" class="form-control" type="text" aria-describedby="basic-addon2" id="edit-islandora-simple2-search-query" name="islandora_simple_search_query" value="" size="30" maxlength="128"></div>
         <button class="element-invisible btn btn-default form-submit" type="submit" id="edit-submit" name="op" value="Go">Go</button>
         <span class="input-group-btn">
           <button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button>
         </span>
     </div>
     </div>
+     </div>
 </div>
 
 </form>';
