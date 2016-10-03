@@ -9052,5 +9052,27 @@ footer {
 .navbar .block .input-group-btn {
   width: auto;
 }
+::-moz-selection {
+  background-color: #8c1a94;
+  color: #000;
+}
+/* Works in Safari */
+::selection {
+  background-color: #8c1a94;
+  color: #000;
+}
+::-o-selection {
+  background-color: #8c1a94;
+  color: #FFF;
+}
+::-ms-selection {
+  background-color: #8c1a94;
+  color: #FFF;
+}
+/* Works in Internet Explorer */
+::-webkit-selection {
+  background-color: #8c1a94;
+  color: #FFF;
+}
 
 /*# sourceMappingURL=style.css.map */
