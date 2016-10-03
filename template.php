@@ -102,8 +102,7 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   dpm($form);
   // Add a clearfix class so the results don't overflow onto the form.
   $form['simple']['#type'] = 'actions';
-  $form['simple']['#attributes']['class'][] = 'clearfix';
-
+  $form['simple']['#attributes']['class'] = array('clearfix');
   // Remove container-inline from the container classes.
   $form['simple']['islandora_simple_search_query']['#attributes']['class'] = array();
   $form['simple']['islandora_simple_search_query']['#size'] = 30;
