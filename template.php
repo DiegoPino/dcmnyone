@@ -134,7 +134,17 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
     </select>
   </div>
 </div>
-  
+   <!--  Input field and button -->
+    <div class="input-group"> 
+    <div class="form-control">
+    <span class="input-group-addon" id="basic-addon2">for</span>
+    <input placeholder="Search our repository" class="form-text" type="text" aria-describedby="basic-addon2" id="edit-islandora-simple2-search-query" name="islandora_simple_search_query" value="" size="30" maxlength="128">
+    <span class="input-group-btn">
+      <button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button>
+    </span>
+    </div>
+    </div>
+
 </form>';
   
   dpm($form);
