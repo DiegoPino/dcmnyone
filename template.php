@@ -173,7 +173,7 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
                    </div>
                </div> ';
                $form['simple']['#markup'] = '<div class="input-group"><div class="input-group-btn">
-                 <select class="selectpicker" data-live-search="true" title="All Collections" data-style="btn-search btn-default" data-width="fit" data-header="Please select where you want to search in">
+                 <select class="selectpicker" data-live-search="true" title="All Collections" data-style="btn-search btn-default" data-width="25%" data-header="Please select where you want to search in">
                <span class="glyphicon glyphicon-search"></span>
                <span class="label-icon">Search</span>
                <span class="caret"></span>
