@@ -24,7 +24,7 @@ function dcmnyone_form_islandora_solr_simple_search_form_alter(&$form, &$form_st
   $form['simple']['keys']['#title'] = '';
   $form['simple']['keys']['#attributes']['placeholder'] = t('Search');
   
-  
+  dpm($form);
 
 }
 
