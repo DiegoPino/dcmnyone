@@ -9054,12 +9054,12 @@ footer {
 }
 ::-moz-selection {
   background-color: #8c1a94;
-  color: #000;
+  color: #FFF;
 }
 /* Works in Safari */
 ::selection {
   background-color: #8c1a94;
-  color: #000;
+  color: #FFF;
 }
 ::-o-selection {
   background-color: #8c1a94;
