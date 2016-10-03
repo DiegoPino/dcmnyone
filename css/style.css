@@ -8983,7 +8983,6 @@ form#islandora-solr-simple-search-form {
 }
 header #block-islandora-solr-simple {
   float: right;
-  max-width: 500px;
   margin: 5px 5px 5px 5px;
 }
 @media screen and (min-width: 992px) {
@@ -8999,7 +8998,6 @@ header #block-islandora-solr-simple .input-group-btn {
 }
 .region #block-islandora-collection-search-islandora-collection-search {
   float: right;
-  max-width: 500px;
   margin: 5px 5px 5px 5px;
 }
 @media screen and (min-width: 992px) {
