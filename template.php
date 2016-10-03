@@ -124,13 +124,13 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   unset($form['simple']);
   $form['simple']['#type'] = 'markup';
   $form['simple']['#markup'] = '<form action="/islandora/search?page=4&amp;type=edismax&amp;cp=lesbianherstory%3Acollection" method="post" id="islandora-collection-search-form" accept-charset="UTF-8">
-  <div>
+
   <input type="hidden" name="form_id" value="islandora_collection_search_form">
   <div class="input-group"> 
   <div class="btn-group" role="group">
       <!-- Select-->
  
-  <div class="form-item form-item-collection-select form-type-select form-group">
+  <div class="form-control form-type-select form-group">
       <span class="input-group-addon" id="basic-addon1">search inside</span>
       <select class="selectpicker form-control form-select" data-width="fit" aria-describedby="basic-addon2" id="edit-collection-select" data-header="Select a Collection" name="collection_select"><option value="all">All Collections</option>
       <option value="albadigitallibrary:collection">Abraham Lincoln Brigade Archives, ALBA Digital Library</option>
@@ -138,7 +138,7 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   </div>
   
    <!--  Input field and button -->
-    <div class="form-item form-item-islandora-simple-search-query form-type-textfield form-group">
+    <div class="form-control form-type-textfield form-group">
       <span class="input-group-addon" id="basic-addon2">for</span>
       <input placeholder="Search our repository" class="form-control form-text" type="text" aria-describedby="basic-addon2" id="edit-islandora-simple2-search-query" name="islandora_simple_search_query" value="" size="30" maxlength="128"></div>
         <button class="element-invisible btn btn-default form-submit" type="submit" id="edit-submit" name="op" value="Go">Go</button>
@@ -148,7 +148,7 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
     </div>
     </div>
 </div>
-</div>
+
 </form>';
   
   dpm($form);
