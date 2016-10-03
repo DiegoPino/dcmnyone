@@ -11066,6 +11066,22 @@ header #block-islandora-solr-simple {
 header #block-islandora-solr-simple .input-group-btn {
   width: auto;
 }
+.region #block-islandora-collection-search-islandora-collection-search {
+  float: right;
+  max-width: 500px;
+  margin: 5px 5px 5px 5px;
+}
+@media screen and (min-width: 992px) {
+  .region #block-islandora-collection-search-islandora-collection-search {
+    float: right;
+    clear: right;
+    padding-top: 10px;
+    padding-right: 100px;
+  }
+}
+.region #block-islandora-collection-search-islandora-collection-search .input-group-btn {
+  width: auto;
+}
 #edit-islandora-simple-search-query {
   background: rgba(255, 255, 255, 0.8);
 }
