@@ -101,7 +101,7 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   $form['#tree'] = FALSE;
   dpm($form);
   // Add a clearfix class so the results don't overflow onto the form.
-  $form['simple']['#type'] = 'actions';
+/*  $form['simple']['#type'] = 'actions';
   $form['simple']['#attributes']['class'] = array('clearfix');
   // Remove container-inline from the container classes.
   $form['simple']['islandora_simple_search_query']['#attributes']['class'] = array();
@@ -120,7 +120,34 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   $form['simple']['collection_select']['#attributes'] = array(
       'class' => array('selectpicker'),
       'data-width'=> 'fit',
-    );
+    ); */
+  $form['simple']['#type'] = 'markup';
+  $form['simple']['#markup'] = '<form action="/islandora/search?page=4&amp;type=edismax&amp;cp=lesbianherstory%3Acollection" method="post" id="islandora-collection-search-form" accept-charset="UTF-8">
+  <div>
+  <input type="hidden" name="form_id" value="islandora_collection_search_form">
+  <div class="input-group"> 
+      
+      <!-- Select-->
+  <span class="input-group-addon" id="basic-addon1">search inside</span>
+
+  <div class="form-item form-item-collection-select form-type-select form-group">
+      <select class="selectpicker form-control form-select" data-width="fit" id="edit-collection-select" aria-describedby="basic-addon1" name="collection_select"><option value="all">All Collections</option>
+      <option value="albadigitallibrary:collection">Abraham Lincoln Brigade Archives, ALBA Digital Library</option>
+    </select>
+  </div>
+  
+   <!--  Input field and button -->
+    <div class="form-item form-item-islandora-simple-search-query form-type-textfield form-group">
+      <input placeholder="Search our repository" class="form-control form-text" type="text" id="edit-islandora-simple-search-query" name="islandora_simple_search_query" value="" size="30" maxlength="128"></div>
+        <button class="element-invisible btn btn-default form-submit" type="submit" id="edit-submit" name="op" value="Go">Go</button>
+        <span class="input-group-btn">
+          <button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button>
+        </span>
+    </div>
+</div>
+</div>
+</form>';
+  
   dpm($form);
 
 }
