@@ -65,7 +65,7 @@ function dcmnyone_theme_preprocess_node(&$variables) {
  * @param $variables
  *   An array of variables to pass to the theme template.
  */
-function dcmny_theme_preprocess_page(&$variables) {
+function dcmnyone_theme_preprocess_page(&$variables) {
   $object = menu_get_object('islandora_object', 2);
   if (isset($object) && in_array("islandora:collectionCModel", $object->models)) {
     $query = new EntityFieldQuery;
@@ -83,7 +83,7 @@ function dcmny_theme_preprocess_page(&$variables) {
   }
 }
 
-function dcmnmy_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
+function dcmnmyone_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
   $link = array(
     '#markup' => l(t("Advanced Search"), "advanced-search", array('attributes' => array('class' => array('adv_search')))),
   );
@@ -122,5 +122,6 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
       'class' => array('selectpicker'),
       'data-width'=> 'fit',
     );
+  dpm($form);
 
 }
