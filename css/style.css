@@ -8950,6 +8950,11 @@ body.front #page-header {
   padding-top: 40px;
   padding-right: 100px;
 }
+@media screen and (min-width: 992px) {
+  #page-header.front {
+    padding-left: 320px;
+  }
+}
 .navbar-nav > li > a.active:hover,
 .navbar-nav > li > a.active:focus {
   background-color: #0a83bf !important;

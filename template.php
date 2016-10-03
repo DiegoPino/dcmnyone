@@ -172,6 +172,27 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
                         
                    </div>
                </div> ';
+               $form['simple']['#markup'] = '<div class="input-group"><div class="input-group-btn">
+                 <select class="selectpicker" data-live-search="true" title="Choose one of the following..." data-style="btn-search btn-default" data-width="fit" data-header="Please select where you want to search in">
+                   <option>Mustard</option>
+                   <option>Ketchup</option>
+                   <option>Relish</option>
+                 </select>
+                 
+                             </div>
+       
+                             <input type="text" class="form-control">
+               
+                             <div class="input-group-btn">
+                                 <button type="button" class="btn btn-search btn-default">
+                                 GO
+                                 </button>
+                        
+                        
+                             </div>
+                         </div> ';       
+               
+              
   dpm($form);
 
 }
