@@ -173,11 +173,9 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
                    </div>
                </div> ';
                $form['simple']['#markup'] = '<div class="input-group"><div class="input-group-btn">
-                 <select class="selectpicker" data-live-search="true" title="All Collections" data-style="btn-search btn-default" data-icon="glyphicon-search" data-width="25%" data-header="Please select where you want to search in">
-               <span class="glyphicon glyphicon-search"></span>
-               <span class="label-icon">Search</span>
-               <span class="caret"></span>
-                 <option value="all" selected>All Collections</option>
+                 <select class="selectpicker" data-live-search="true" title="All Collections" data-style="btn-search btn-default" data-width="25%" data-header="Please select where you want to search in">
+               
+                 <option value="all" selected data-icon="glyphicon-search">All Collections</option>
                  <option value="albadigitallibrary:collection">Abraham Lincoln Brigade Archives, ALBA Digital Library</option>
                   </select>
                  
