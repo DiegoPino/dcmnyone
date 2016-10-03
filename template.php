@@ -125,12 +125,10 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
   $form['simple']['#type'] = 'markup';
   $form['simple']['#markup'] = '<form action="/islandora/search?page=4&amp;type=edismax&amp;cp=lesbianherstory%3Acollection" method="post" id="islandora-collection-search-form" accept-charset="UTF-8">
 
-  <input type="hidden" name="form_id" value="islandora_collection_search_form">
   <div class="input-group"> 
       <!-- Select-->
-
-  <div class="form-control form-type-select">
       <span class="input-group-addon" id="basic-addon1">search inside</span>
+  <div class="form-type-select">
       <select class="selectpicker form-control form-select" data-width="fit" aria-describedby="basic-addon2" id="edit-collection-select" data-header="Select a Collection" name="collection_select"><option value="all">All Collections</option>
       <option value="albadigitallibrary:collection">Abraham Lincoln Brigade Archives, ALBA Digital Library</option>
     </select>
@@ -140,7 +138,7 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
     <div class="input-group"> 
     <div class="form-control">
       <span class="input-group-addon" id="basic-addon2">for</span>
-      <input placeholder="Search our repository" class="form-control" type="text" aria-describedby="basic-addon2" id="edit-islandora-simple2-search-query" name="islandora_simple_search_query" value="" size="30" maxlength="128"></div>
+      <input placeholder="Search our repository" class="" type="text" aria-describedby="basic-addon2" id="edit-islandora-simple2-search-query" name="islandora_simple_search_query" value="" size="30" maxlength="128"></div>
         <button class="element-invisible btn btn-default form-submit" type="submit" id="edit-submit" name="op" value="Go">Go</button>
         <span class="input-group-btn">
           <button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button>
@@ -148,8 +146,6 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
     </div>
     </div>
      </div>
-</div>
-
 </form>';
   
   dpm($form);
