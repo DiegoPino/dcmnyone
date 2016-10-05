@@ -9099,13 +9099,14 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
   position: absolute;
   background: #b4e4fb;
 }
-.thumbnail {
+.widget-varysize {
   border: 0 none;
   box-shadow: none;
   margin: 0;
   padding: 0;
+  position: relative;
 }
-.caption h4 {
+.caption h1 {
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }
