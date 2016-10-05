@@ -4960,7 +4960,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   line-height: 1.42857143;
   text-decoration: none;
   color: white;
-  background-color: #cce4ef;
+  background-color: #f2f8fb;
   border: 1px solid #ddd;
   margin-left: -1px;
 }
@@ -5060,7 +5060,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #006495;
+  background-color: #000609;
 }
 .pager .next > a,
 .pager .next > span {
@@ -7533,11 +7533,11 @@ a.thumbnail.active {
 .pager li > span:hover,
 .pager li > a:focus,
 .pager li > span:focus {
-  background-color: #006495;
+  background-color: #000609;
 }
 .pager li > a:active,
 .pager li > span:active {
-  background-color: #006495;
+  background-color: #000609;
 }
 .pager li > a [class*="fui-"] + span,
 .pager li > span [class*="fui-"] + span {
@@ -7550,7 +7550,7 @@ a.thumbnail.active {
 .pagination {
   position: relative;
   display: block;
-  background: #cce4ef;
+  background: #f2f8fb;
   color: white;
   padding: 0;
   display: inline-block;
@@ -7584,7 +7584,7 @@ a.thumbnail.active {
 .pagination li.active > span {
   background-color: #29316c;
   color: white;
-  border-color: #d6e9f2;
+  border-color: #f5fafc;
 }
 .pagination li.active > a,
 .pagination li.active > span,
@@ -7594,7 +7594,7 @@ a.thumbnail.active {
 .pagination li.active > span:focus {
   background-color: #29316c;
   color: white;
-  border-color: #d6e9f2;
+  border-color: #f5fafc;
 }
 .pagination li.active.previous > a,
 .pagination li.active.next > a,
@@ -7641,7 +7641,7 @@ a.thumbnail.active {
 .pagination li.next > a,
 .pagination li.previous > span,
 .pagination li.next > span {
-  border-right: 2px solid #ddedf5;
+  border-right: 2px solid #f7fafc;
   font-size: 12px;
   min-width: auto;
   padding: 12px 17px;
@@ -7655,7 +7655,7 @@ a.thumbnail.active {
 .pagination li.disabled > span {
   color: white;
   background-color: rgba(255, 255, 255, 0.3);
-  border-right-color: #d6e9f2;
+  border-right-color: #f5fafc;
   cursor: not-allowed;
 }
 .pagination li.disabled > a:hover,
@@ -7670,7 +7670,7 @@ a.thumbnail.active {
 @media (max-width: 767px) {
   .pagination li.next,
   .pagination li.previous {
-    background-color: #cce4ef;
+    background-color: #f2f8fb;
     position: absolute;
     right: 0;
     top: 0;
@@ -7688,7 +7688,7 @@ a.thumbnail.active {
   display: inline-block;
   background: transparent;
   border: none;
-  border-left: 2px solid #ddedf5;
+  border-left: 2px solid #f7fafc;
   color: white;
   font-size: 12px;
   line-height: 16px;
@@ -7740,7 +7740,7 @@ a.thumbnail.active {
     width: 50%;
   }
   .pagination > .btn:first-child {
-    border-bottom: 2px solid #d6e9f2;
+    border-bottom: 2px solid #f5fafc;
     border-radius: 6px 0 0;
   }
   .pagination > .btn:first-child.btn-primary {
@@ -7770,7 +7770,7 @@ a.thumbnail.active {
     border-radius: 0 0 6px 6px;
   }
   .pagination > .btn + ul + .btn {
-    border-bottom: 2px solid #d6e9f2;
+    border-bottom: 2px solid #f5fafc;
     position: absolute;
     right: 0;
     top: 0;
@@ -7980,7 +7980,7 @@ a.thumbnail.active {
 .pagination-minimal > li.next > span {
   background: transparent;
   border: none;
-  border-right: 2px solid #ddedf5;
+  border-right: 2px solid #f7fafc;
   margin: 0 9px 0 0;
   padding: 12px 17px;
   border-radius: 6px 0 0 6px;
@@ -7997,7 +7997,7 @@ a.thumbnail.active {
 .pagination-minimal > li.next > a:focus,
 .pagination-minimal > li.previous > span:focus,
 .pagination-minimal > li.next > span:focus {
-  border-color: #ddedf5 !important;
+  border-color: #f7fafc !important;
 }
 @media (max-width: 767px) {
   .pagination-minimal > li.previous > a,
@@ -8012,7 +8012,7 @@ a.thumbnail.active {
 }
 .pagination-minimal > li.next > a,
 .pagination-minimal > li.next > span {
-  border-left: 2px solid #ddedf5;
+  border-left: 2px solid #f7fafc;
   border-right: none;
   margin: 0;
   border-radius: 0 6px 6px 0;
@@ -8022,7 +8022,7 @@ a.thumbnail.active {
   background-color: white;
   border-color: white;
   border-width: 2px !important;
-  color: #cce4ef;
+  color: #f2f8fb;
   margin: 10px 5px 9px;
 }
 .pagination-minimal > li.active > a:hover,
@@ -8031,11 +8031,11 @@ a.thumbnail.active {
 .pagination-minimal > li.active > span:focus {
   background-color: white;
   border-color: white;
-  color: #cce4ef;
+  color: #f2f8fb;
 }
 .pagination-minimal > li.active.previous,
 .pagination-minimal > li.active.next {
-  border-color: #ddedf5;
+  border-color: #f7fafc;
 }
 .pagination-minimal > li.active.previous {
   margin-right: 6px;
@@ -8043,7 +8043,7 @@ a.thumbnail.active {
 .pagination-minimal > li > a,
 .pagination-minimal > li > span {
   background: white;
-  border: 5px solid #cce4ef;
+  border: 5px solid #f2f8fb;
   color: white;
   line-height: 16px;
   margin: 7px 2px 6px;
