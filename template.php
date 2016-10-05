@@ -99,7 +99,7 @@ function dcmnmyone_theme_form_islandora_solr_simple_search_form_alter(&$form, &$
  */
 function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_state, $form_id) {
   $form['#tree'] = FALSE;
-  dpm($form);
+  //dpm($form);
   // Add a clearfix class so the results don't overflow onto the form.
 /*  $form['simple']['#type'] = 'actions';
   $form['simple']['#attributes']['class'] = array('clearfix');
@@ -193,6 +193,6 @@ function dcmnyone_form_islandora_collection_search_form_alter(&$form, &$form_sta
                          </div> ';       
                
               
-  dpm($form);
+  //dpm($form);
 
 }

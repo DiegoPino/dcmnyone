@@ -120,8 +120,8 @@
     <?php endif; ?>
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
-  <div class="main-container <?php print $container_class; ?>">
- 
+  <!-- <div class="main-container <?php //print $container_class; ?>"> -->
+  <div class="main-container container">
   <div class="row">
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">

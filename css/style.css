@@ -9105,6 +9105,7 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
   margin: 0;
   padding: 0;
   position: relative;
+  overflow: hidden;
 }
 .caption h1 {
   color: #fff;
