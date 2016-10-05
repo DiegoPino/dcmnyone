@@ -9111,6 +9111,8 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
 .caption h1 {
   color: #fff;
   -webkit-font-smoothing: antialiased;
+  width: inherit;
+  position: absolute;
 }
 .main-container {
   padding-top: 15px;
