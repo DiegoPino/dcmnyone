@@ -9106,10 +9106,14 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
   padding: 0;
   position: relative;
   overflow: hidden;
+  min-width: 20% !important;
 }
 .caption h1 {
   color: #fff;
   -webkit-font-smoothing: antialiased;
+}
+.main-container {
+  padding-top: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
