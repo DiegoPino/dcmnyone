@@ -9098,6 +9098,7 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
   bottom: .3rem;
   position: absolute;
   background: #b4e4fb;
+  height: inherit;
 }
 .widget-varysize {
   border: 0 none;
@@ -9111,8 +9112,6 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
 .caption h1 {
   color: #fff;
   -webkit-font-smoothing: antialiased;
-  width: inherit;
-  position: absolute;
 }
 .main-container {
   padding-top: 15px;
