@@ -369,7 +369,7 @@ h6,
   font-family: inherit;
   font-weight: 700;
   line-height: 1.1;
-  color: inherit;
+  color: #000000;
 }
 h1 small,
 h2 small,
@@ -1786,7 +1786,7 @@ output {
 }
 .form-group.focus .form-control,
 .form-control:focus {
-  border-color: #29316c;
+  border-color: #000000;
   outline: 0;
   box-shadow: none;
 }
@@ -4832,7 +4832,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #29316c;
+  color: #000000;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
@@ -4843,14 +4843,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #29316c;
+  color: #000000;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #29316c;
+  background-color: #000000;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4875,7 +4875,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #29316c;
+  background-color: #000000;
   color: white;
 }
 @media (max-width: 767px) {
@@ -4890,14 +4890,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #29316c;
+    color: #000000;
     background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: white;
-    background-color: #29316c;
+    background-color: #000000;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4910,14 +4910,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: white;
 }
 .navbar-inverse .navbar-link:hover {
-  color: #29316c;
+  color: #000000;
 }
 .navbar-inverse .btn-link {
   color: white;
 }
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
-  color: #29316c;
+  color: #000000;
 }
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,
@@ -4981,7 +4981,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:focus {
   z-index: 2;
   color: #1b2047;
-  background-color: #29316c;
+  background-color: #000000;
   border-color: #ddd;
 }
 .pagination > .active > a,
@@ -7401,7 +7401,7 @@ a.thumbnail.active {
   box-shadow: none;
 }
 .progress-bar {
-  background: #29316c;
+  background: #000000;
   line-height: 12px;
   box-shadow: none;
 }
@@ -7434,7 +7434,7 @@ a.thumbnail.active {
   cursor: pointer;
 }
 .ui-slider-handle {
-  background-color: #23295c;
+  background-color: #000000;
   border-radius: 50%;
   cursor: pointer;
   height: 18px;
@@ -7445,14 +7445,14 @@ a.thumbnail.active {
 }
 .ui-slider-handle:hover,
 .ui-slider-handle:focus {
-  background-color: #545a8a;
+  background-color: #333333;
   outline: none;
 }
 .ui-slider-handle:active {
-  background-color: #23295c;
+  background-color: #000000;
 }
 .ui-slider-range {
-  background-color: #29316c;
+  background-color: #000000;
   display: block;
   height: 100%;
   position: absolute;
@@ -7582,7 +7582,7 @@ a.thumbnail.active {
 }
 .pagination li.active > a,
 .pagination li.active > span {
-  background-color: #29316c;
+  background-color: #000000;
   color: white;
   border-color: #7278a8;
 }
@@ -7592,7 +7592,7 @@ a.thumbnail.active {
 .pagination li.active > span:hover,
 .pagination li.active > a:focus,
 .pagination li.active > span:focus {
-  background-color: #29316c;
+  background-color: #000000;
   color: white;
   border-color: #7278a8;
 }
@@ -7614,7 +7614,7 @@ a.thumbnail.active {
 .pagination li.active.next > a:focus,
 .pagination li.active.previous > span:focus,
 .pagination li.active.next > span:focus {
-  background-color: #29316c;
+  background-color: #000000;
   color: white;
 }
 .pagination li:first-child > a,
@@ -7703,12 +7703,12 @@ a.thumbnail.active {
 .pagination li > span:hover,
 .pagination li > a:focus,
 .pagination li > span:focus {
-  background-color: #29316c;
+  background-color: #000000;
   color: white;
 }
 .pagination li > a:active,
 .pagination li > span:active {
-  background-color: #29316c;
+  background-color: #000000;
   color: white;
 }
 .pagination > .btn.previous,
@@ -7744,7 +7744,7 @@ a.thumbnail.active {
     border-radius: 6px 0 0;
   }
   .pagination > .btn:first-child.btn-primary {
-    border-bottom-color: #545a8a;
+    border-bottom-color: #333333;
   }
   .pagination > .btn:first-child.btn-danger {
     border-bottom-color: #e17572;
@@ -7777,7 +7777,7 @@ a.thumbnail.active {
     border-radius: 0 6px 0 0;
   }
   .pagination > .btn + ul + .btn.btn-primary {
-    border-bottom-color: #545a8a;
+    border-bottom-color: #333333;
   }
   .pagination > .btn + ul + .btn.btn-danger {
     border-bottom-color: #e17572;
@@ -8058,15 +8058,15 @@ a.thumbnail.active {
 .pagination-minimal > li > span:hover,
 .pagination-minimal > li > a:focus,
 .pagination-minimal > li > span:focus {
-  background-color: #29316c;
-  border-color: #29316c;
+  background-color: #000000;
+  border-color: #000000;
   color: white;
   transition: background 0.2s ease-out, border-color 0.2s ease-out, color 0.2s ease-out;
 }
 .pagination-minimal > li > a:active,
 .pagination-minimal > li > span:active {
-  background-color: #23295c;
-  border-color: #23295c;
+  background-color: #000000;
+  border-color: #000000;
 }
 .pagination-plain {
   font-size: 12px;
@@ -8942,16 +8942,17 @@ body.front #page-header {
 #page-header {
   border-bottom: 1px solid #E5E5E5;
 }
-#page-header p.lead {
+#page-header span.lead {
   float: right;
-  color: #30397f;
-  font-size: 73.5px;
+  color: #000000;
+  font-size: 42px;
   font-weight: 700;
   padding-top: 40px;
   padding-right: 100px;
+  background-color: 1;
 }
 @media (max-width: 768px) {
-  #page-header p.lead {
+  #page-header span.lead {
     font-size: 21px;
   }
 }
