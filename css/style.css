@@ -9127,7 +9127,7 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
   background-color: #ffffff;
 }
 a.name.navbar-brand {
-  margin-left: 15px;
+  margin-left: 30px !important;
 }
 .lead,
 h1,
