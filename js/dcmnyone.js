@@ -1,21 +1,14 @@
 /**
  * @file
- * biodiversidadreuna2.js
+ * dcmnyone.js
  *
- * Provides utility javascript to biodiversidad reuna 2 theme
+ * Provides utility javascript to dcmnyone
  */
 
 (function ($) {
-  Drupal.behaviors.biodiversidad2 = {
+  Drupal.behaviors.dcmnyone = {
     attach: function (context, settings) {
 		
-	 $('nav').affix({
-	        offset: {
-	          top: parseInt($('.navbar').css('margin-top')+1)
-	        }
-	  });
-
-	  
 	    $('[data-toggle="offcanvas"]').click(function () {
 	      $('.row-offcanvas').toggleClass('active')
 	    });
