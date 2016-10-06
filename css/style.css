@@ -8945,11 +8945,11 @@ body.front #page-header {
 #page-header span.lead {
   float: right;
   color: #000000;
-  font-size: 42px;
+  font-size: 52.5px;
   font-weight: 700;
   padding-top: 40px;
   padding-right: 100px;
-  background-color: 1;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 768px) {
   #page-header span.lead {
