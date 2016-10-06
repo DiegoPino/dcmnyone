@@ -8947,9 +8947,9 @@ body.front #page-header {
   color: #000000;
   font-size: 52.5px;
   font-weight: 700;
-  padding-top: 40px;
-  padding-right: 100px;
-  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 40px;
+  margin-right: 100px;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 @media (max-width: 768px) {
   #page-header span.lead {
@@ -9121,7 +9121,7 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
 }
 .main-container {
   padding-top: 15px;
-  background-color: rgba(239, 233, 226, 0.1);
+  padding-bottom: 15px;
 }
 .logo.navbar-btn {
   margin-top: 0px;
