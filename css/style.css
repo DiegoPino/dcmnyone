@@ -8950,6 +8950,11 @@ body.front #page-header {
   padding-top: 40px;
   padding-right: 100px;
 }
+@media (min-width: 768px) {
+  #page-header p.lead {
+    font-size: 21px;
+  }
+}
 @media screen and (min-width: 992px) {
   .front #page-header {
     padding-left: 320px;
