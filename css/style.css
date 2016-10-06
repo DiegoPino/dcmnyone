@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700|Montserrat:400,700');
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -367,7 +367,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: inherit;
 }
@@ -8945,7 +8945,8 @@ body.front #page-header {
 #page-header p.lead {
   float: right;
   color: #30397f;
-  font-size: 63px;
+  font-size: 84px;
+  font-weight: 700;
   padding-top: 40px;
   padding-right: 100px;
 }
@@ -9122,6 +9123,14 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
 }
 a.name.navbar-brand {
   margin-left: 0px;
+}
+.lead,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-familiy: 'Montserrat', sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
