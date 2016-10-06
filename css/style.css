@@ -4732,29 +4732,29 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #4f59a5;
 }
 .navbar-default .navbar-brand {
-  color: #30397f;
+  color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #29316c;
+  color: #3e4aa4;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: white;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #30397f;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #29316c;
+  color: #3e4aa4;
   background-color: #202443;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #29316c;
-  background-color: transparent;
+  color: white;
+  background-color: #414987;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4779,23 +4779,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: transparent;
-  color: #29316c;
+  background-color: #414987;
+  color: white;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #30397f;
+    color: white;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #29316c;
+    color: #3e4aa4;
     background-color: #202443;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #29316c;
-    background-color: transparent;
+    color: white;
+    background-color: #414987;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4805,17 +4805,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #30397f;
+  color: white;
 }
 .navbar-default .navbar-link:hover {
-  color: #29316c;
+  color: #3e4aa4;
 }
 .navbar-default .btn-link {
-  color: #30397f;
+  color: white;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #29316c;
+  color: #3e4aa4;
 }
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
@@ -7095,6 +7095,8 @@ button.close {
  * Modify this file to override the Bootstrap Framework variables. You can copy
  * these variables directly from ../bootstrap/less/variables.less to this file.
  */
+@navbar-padding-horizontal :        0
+@navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 select.bs-select-hidden,
 select.selectpicker {
   display: none !important;
@@ -8934,7 +8936,6 @@ body.front #page-header {
 }
 .container-fluid .navbar-header > .logo {
   margin-left: 25px;
-  background-color: #626bb3;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -9119,7 +9120,7 @@ aside #block-islandora-compound-object-compound-jail-display .content a {
 }
 .logo.navbar-btn {
   margin-top: 0px;
-  background-color: #ffffff;
+  background-color: #d1d2dd;
 }
 
 /*# sourceMappingURL=style.css.map */
